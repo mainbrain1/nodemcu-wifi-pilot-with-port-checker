@@ -1,5 +1,5 @@
 wifi.setmode(wifi.STATION)
-wifi.sta.config("siska","passssss")
+wifi.sta.config("ssid","pass")
 wifi.sta.setip({ip="192.168.0.165", netmask="255.255.255.0", gateway="192.168.0.1"})
 message=""
 led={}
